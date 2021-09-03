@@ -1,0 +1,36 @@
+---
+title: "DfE Dashboard Standards for Power BI reports and dashboards"
+author: "Department for Education guidance"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+biblio-style: apalike
+link-citations: yes
+description: "DfE Dashboard Standards guide"
+favicon: pictures/qa_logo.png
+---
+
+# Introduction
+
+Power BI is Microsoft software that allows the user to create interactive dashboards/ reports/apps. It is designed to enable users to create self-service Business Intelligence (BI) tools, enabling their customers to make timely informed decisions based on their data.  
+
+DfE analysts have been able to download and use Power BI since January 2018. From this date, analysts have been able to create internal tools and share them with colleagues within the department. From March 2019, analysts in ESFA Data Science Division have also been able to release dashboards to educational providers via a web portal called View Your Education Data (VYED). 
+
+Below is a link to the gov.uk standards 
+
+https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style
+
+## Purpose
+
+This document provides a high-level guide to aid in the design of consistent and high-quality Power BI dashboards.  
+
+The overall aim of these guidelines is to help the analyst create logical, well-designed dashboards that are built correctly first time and easy for readers to understand and navigate, without any background reading. 
+
+These guidelines are intended as a starting point for modellers when considering how to design dashboards, but it is for the modeller to determine how this is to be achieved. It is also hoped that this guide will start the conversation between modellers/teams to help improve standards.  
+
+They are not designed to be a “colour by numbers” guide to dashboards, as each dashboard will have its own unique set of requirements and the modellers will have their own preferences and style.  
+
+This document works alongside the Department’s Style Guide:  
+
+DfE style guide (sharepoint.com) 

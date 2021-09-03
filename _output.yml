@@ -1,0 +1,10 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      collapse: section
+      before: |
+        <li class="toc-logo"><a href="./"><img src="pictures/qa_logo.png"></a></li>
+        <center><a><font size="3"><b>DfE Dashboard standards</b></font></a></center>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>

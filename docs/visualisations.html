@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 5 Visualisations | DfE Dashboard Standards for Power BI reports and dashboards</title>
+  <meta name="description" content="DfE Dashboard Standards guide" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 5 Visualisations | DfE Dashboard Standards for Power BI reports and dashboards" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="DfE Dashboard Standards guide" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 5 Visualisations | DfE Dashboard Standards for Power BI reports and dashboards" />
+  
+  <meta name="twitter:description" content="DfE Dashboard Standards guide" />
+  
+
+<meta name="author" content="Department for Education guidance" />
+
+
+<meta name="date" content="2021-09-03" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="pictures/qa_logo.png" type="image/x-icon" />
+<link rel="prev" href="data-modelling.html"/>
+
+<script src="libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="toc-logo"><a href="./"><img src="pictures/qa_logo.png"></a></li>
+<center><a><font size="3"><b>DfE Dashboard standards</b></font></a></center>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#purpose"><i class="fa fa-check"></i><b>1.1</b> Purpose</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="planning.html"><a href="planning.html"><i class="fa fa-check"></i><b>2</b> Planning</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="planning.html"><a href="planning.html#the-requirements"><i class="fa fa-check"></i><b>2.1</b> The requirements</a></li>
+<li class="chapter" data-level="2.2" data-path="planning.html"><a href="planning.html#select-the-right-type-of-dashboard"><i class="fa fa-check"></i><b>2.2</b> Select the right type of dashboard</a></li>
+<li class="chapter" data-level="2.3" data-path="planning.html"><a href="planning.html#input-data"><i class="fa fa-check"></i><b>2.3</b> Input data</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="data-processing.html"><a href="data-processing.html"><i class="fa fa-check"></i><b>3</b> Data processing</a></li>
+<li class="chapter" data-level="4" data-path="data-modelling.html"><a href="data-modelling.html"><i class="fa fa-check"></i><b>4</b> Data modelling</a></li>
+<li class="chapter" data-level="5" data-path="visualisations.html"><a href="visualisations.html"><i class="fa fa-check"></i><b>5</b> Visualisations</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="visualisations.html"><a href="visualisations.html#things-to-avoid"><i class="fa fa-check"></i><b>5.1</b> Things to avoid</a></li>
+<li class="chapter" data-level="5.2" data-path="visualisations.html"><a href="visualisations.html#simple-concise-and-easy-to-understand"><i class="fa fa-check"></i><b>5.2</b> Simple, concise and easy to understand</a></li>
+<li class="chapter" data-level="5.3" data-path="visualisations.html"><a href="visualisations.html#titles-and-labelling"><i class="fa fa-check"></i><b>5.3</b> Titles and labelling</a></li>
+<li class="chapter" data-level="5.4" data-path="visualisations.html"><a href="visualisations.html#numbers"><i class="fa fa-check"></i><b>5.4</b> Numbers</a></li>
+<li class="chapter" data-level="5.5" data-path="visualisations.html"><a href="visualisations.html#rounding"><i class="fa fa-check"></i><b>5.5</b> Rounding</a></li>
+<li class="chapter" data-level="5.6" data-path="visualisations.html"><a href="visualisations.html#ordering-categories"><i class="fa fa-check"></i><b>5.6</b> Ordering categories</a></li>
+<li class="chapter" data-level="5.7" data-path="visualisations.html"><a href="visualisations.html#filters"><i class="fa fa-check"></i><b>5.7</b> Filters</a></li>
+<li class="chapter" data-level="5.8" data-path="visualisations.html"><a href="visualisations.html#interactions"><i class="fa fa-check"></i><b>5.8</b> Interactions</a></li>
+<li class="chapter" data-level="5.9" data-path="visualisations.html"><a href="visualisations.html#colour"><i class="fa fa-check"></i><b>5.9</b> Colour</a></li>
+<li class="chapter" data-level="5.10" data-path="visualisations.html"><a href="visualisations.html#bookmarks"><i class="fa fa-check"></i><b>5.10</b> Bookmarks</a></li>
+<li class="chapter" data-level="5.11" data-path="visualisations.html"><a href="visualisations.html#tooltips"><i class="fa fa-check"></i><b>5.11</b> Tooltips</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">DfE Dashboard Standards for Power BI reports and dashboards</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="visualisations" class="section level1" number="5">
+<h1><span class="header-section-number">Chapter 5</span> Visualisations</h1>
+<p>The basic elements of the report are visualisations, standalone images, and text boxes. A report can have one or more report pages and all the pages together are collectively known as the report.</p>
+<div id="things-to-avoid" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> Things to avoid</h2>
+<p>Any component or visualization that is not directly contributing to the message should be removed and includes:</p>
+<ul>
+<li><p><strong>Navigation</strong> - Dashboards work best when they can be understood in a glance. Do you need to include navigation options on your dashboard to drill down, drill through or filter the information on there? For easier navigation make sure to include search options in filters where possible</p></li>
+<li><p><strong>Non-essential text</strong> - Avoid unnecessary labeling and instructions. Avoid using acronyms and technical jargon that will be confusing for the user</p></li>
+<li><p><strong>Too much colour</strong> – Use the standard government colour guidelines (see links section)</p></li>
+<li><p><strong>3-Dimensional objects</strong> - Avoid at all cost because the additional angles create another cognitive barrier, which can lead to misinterpretation of data.</p></li>
+<li><p><strong>Horizontal or vertical grid lines</strong> - In some instances grid lines are useful, but overusing them detracts from the data</p></li>
+<li><p><strong>Too much detail</strong> – Causes distraction (e.g. £1.25m, instead of £1,254,345.67)</p></li>
+<li><p><strong>Too many visuals can be a bad thing and make the insight we’re trying to provide confusing rather than useful</strong></p></li>
+</ul>
+</div>
+<div id="simple-concise-and-easy-to-understand" class="section level2" number="5.2">
+<h2><span class="header-section-number">5.2</span> Simple, concise and easy to understand</h2>
+<p>Modellers should not use visuals that require explanations for the user.</p>
+<ul>
+<li><p>Visuals should adhere to the following guidelines:</p></li>
+<li><p>Position elements that require the reader to make a choice to the left of the visualizations the choice will impact (e.g. slicers)</p></li>
+<li><p>Position related elements close to each other as this implies the elements are related</p></li>
+<li><p>Make important elements larger than the others or add a visual element like an arrow to draw attention</p></li>
+<li><p>Add a border, colour background or white space around related elements. Conversely, add a divider to distinguish between different sections of a report</p></li>
+<li><p>Fill the report page. If you find that you have a lot of extra white space, consider make your visualizations larger or make the canvas smaller, although remember that white space can be useful for preventing your dashboard from looking cluttered/complicated.</p></li>
+<li><p>Align the elements on the report page, either symmetrically or intentionally asymmetrically – pixel alignment in the format pane is useful for doing this</p></li>
+</ul>
+</div>
+<div id="titles-and-labelling" class="section level2" number="5.3">
+<h2><span class="header-section-number">5.3</span> Titles and labelling</h2>
+<p>The titles, labels, headings and footnotes should follow these conventions:</p>
+<ul>
+<li><p>Order columns by a field – e.g. highest value, academic year</p></li>
+<li><p>Shade columns/rows in tables for emphasis.</p></li>
+<li><p>Tables should have meaningful headings.</p></li>
+<li><p>Headings and totals should be in a bold font.</p></li>
+<li><p>Borders (if needed) should be black or in the ESFA Data Science theme (navy blue)</p></li>
+</ul>
+</div>
+<div id="numbers" class="section level2" number="5.4">
+<h2><span class="header-section-number">5.4</span> Numbers</h2>
+<p>To help the reader make comparisons:</p>
+<ul>
+<li><p>When comparing numbers, try to ensure they are physically close together</p></li>
+<li><p>Series of numbers are easier to compare in columns</p></li>
+<li><p>Place numeric columns at the right-hand side, text to the left.</p></li>
+<li><p>Align numbers to the right (unless this looks confusing)</p></li>
+<li><p>Use the same level of precision</p></li>
+<li><p>Decimals less than one should always begin with a zero (e.g. 0.5, not .5)</p></li>
+<li><p>Format numbers with commas between thousands (e.g. 1,000)</p></li>
+<li><p>Format numbers with units</p></li>
+<li><p>Format percentages to one decimal place and in italics (e.g. 0.5%)</p></li>
+<li><p>Format large numbers for easy reading (e.g. £234,000 – no need for pennies)</p></li>
+</ul>
+</div>
+<div id="rounding" class="section level2" number="5.5">
+<h2><span class="header-section-number">5.5</span> Rounding</h2>
+<p>Making a decision on rounding can be difficult when the values show a variety of magnitudes. If so, consider rounding to a fixed number of significant figures.</p>
+<p>The extent of rounding will depend on the intended use: a commentator may be content to report that the population of the UK is 64m, or that this has changed from 63.7m to 64.1m. An analyst performing further calculations will want to work with figures that are more precise.</p>
+<p>Use dynamic rounding (via DAX) to avoid reducing precision of totals and sub-totals.</p>
+</div>
+<div id="ordering-categories" class="section level2" number="5.6">
+<h2><span class="header-section-number">5.6</span> Ordering categories</h2>
+<p>Ordering the categories in a table is a very effective way of aiding rapid interpretation.</p>
+</div>
+<div id="filters" class="section level2" number="5.7">
+<h2><span class="header-section-number">5.7</span> Filters</h2>
+<p>Filters should be located in a set area of the report page, consistently across all pages. These should be drop down filters as they save vital space and will look consistent.</p>
+</div>
+<div id="interactions" class="section level2" number="5.8">
+<h2><span class="header-section-number">5.8</span> Interactions</h2>
+<p>At the time of writing, the default interactions for any page report is one of two variations, all depending on the type of visualisation involved. Some of the visuals default to a filter functionality whereas other visuals use the highlight method.</p>
+<p>Use the cross-filter and cross-highlight option to interact with other visualizations on the page or to sync with visualisations on other pages, where appropriate.</p>
+</div>
+<div id="colour" class="section level2" number="5.9">
+<h2><span class="header-section-number">5.9</span> Colour</h2>
+<p>Colour can fundamentally change how we understand the information in graphs and tables.</p>
+<p>Use colour sparingly and with restraint:</p>
+<ul>
+<li><p>Never use colour to specify something on its own</p></li>
+<li><p>Colours are most effective when they are not overused - only use different colours when they represent helpful differences of meaning in the data</p></li>
+</ul>
+<p>Be consistent in your use of colour:</p>
+<ul>
+<li>Use the same colour to mean the same thing in a series of graphs</li>
+</ul>
+<p>Use colour logically in sequences:</p>
+<ul>
+<li>For sequences of colours, ensure that these progress in a way that the user would expect (e.g. in luminance order)</li>
+</ul>
+<p>Consider accessibility:</p>
+<ul>
+<li>Colour blindness affects the ability to distinguish between some groups of colours (especially reds and greens). Using DfE accepted colours will enhance their experience</li>
+</ul>
+<p>Foreground colour:</p>
+<ul>
+<li><p>Confine use of colour to foreground items in graphs to draw attention to specific features</p></li>
+<li><p>Avoid using white as a foreground colour in graphs. It should also be avoided on maps unless it represents “no data”</p></li>
+</ul>
+<p>Background colour:</p>
+<ul>
+<li><p>Effective use of colour applies as much to annotation and background as it does to data elements like bars and lines</p></li>
+<li><p>In general, background colour should be avoided in tables unless it is to provide subtle highlighting</p></li>
+</ul>
+<p>Use a white background:</p>
+<ul>
+<li><p>Most colour palettes are designed to appear on a white background as it provides a helpful reference “anchor” for the visual system</p></li>
+<li><p>The only functional reason to use a non-white background is for viewing the image in the dark</p></li>
+<li><p>Use grey palettes for drawing and labelling axes and annotation</p></li>
+<li><p>Do not use images as backdrops in graphs or tables, as they distract the reader</p></li>
+</ul>
+<p>Colours on line graphs:</p>
+<ul>
+<li>Graphs with more than four lines are hard to follow, even with variations in line texture and shading. A better approach to visualise five or more lines is to use multiple single plots</li>
+</ul>
+</div>
+<div id="bookmarks" class="section level2" number="5.10">
+<h2><span class="header-section-number">5.10</span> Bookmarks</h2>
+<p>Bookmarks help you capture the currently configured view of a report page, including filtering and the state of visuals, and later let you go back to that state by simply selecting the saved bookmark.</p>
+<p>The following elements are saved with the bookmark:</p>
+<ul>
+<li><p>Current page</p></li>
+<li><p>Filters</p></li>
+<li><p>Slicers, including slicer type (for example, dropdown or list) and slicer state</p></li>
+<li><p>Visual selection state (such as cross-highlight filters)</p></li>
+<li><p>Sort order</p></li>
+<li><p>Drill location</p></li>
+<li><p>Visibility (of an object, using the Selection pane)</p></li>
+<li><p>The focus or Spotlight modes of any visible object</p></li>
+</ul>
+<p>You can also create a collection of bookmarks, arrange them in the order you want, and subsequently step through each bookmark in a presentation to highlight a series of insights, or the story you want to tell with your visuals and reports.</p>
+<p>Bookmarks can be used to create pop-up windows, clearing filters, tabbed navigation, expand/collapse menus, page navigation and so much more.</p>
+</div>
+<div id="tooltips" class="section level2" number="5.11">
+<h2><span class="header-section-number">5.11</span> Tooltips</h2>
+<p>Tooltips are an elegant way of providing more contextual information and detail to data points on a visual. When a visualization is created, the default tooltip displays the data point’s value and category. Custom tooltips enable you to specify additional data points that display as part of the tooltip, simply by dragging a field into the tooltips bucket. You can also create report pages to serve as your tooltip and so include visuals, images, and any other collection of items in those pages.</p>
+<p>Each tooltip page can be associated with one or more fields in your report. Thus, when you hover over a visual that includes the selected field, the tooltip you created on your tooltip page appears when you hover over the visual, filtered by the data point over which your mouse is hovering.</p>
+<p>There are limitations to report tooltips. These are not noted here, as Power BI is continually evolving its capabilities.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="data-modelling.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

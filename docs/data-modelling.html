@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 4 Data modelling | DfE Dashboard Standards for Power BI reports and dashboards</title>
+  <meta name="description" content="DfE Dashboard Standards guide" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 4 Data modelling | DfE Dashboard Standards for Power BI reports and dashboards" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="DfE Dashboard Standards guide" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 4 Data modelling | DfE Dashboard Standards for Power BI reports and dashboards" />
+  
+  <meta name="twitter:description" content="DfE Dashboard Standards guide" />
+  
+
+<meta name="author" content="Department for Education guidance" />
+
+
+<meta name="date" content="2021-09-03" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="pictures/qa_logo.png" type="image/x-icon" />
+<link rel="prev" href="data-processing.html"/>
+<link rel="next" href="visualisations.html"/>
+<script src="libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="toc-logo"><a href="./"><img src="pictures/qa_logo.png"></a></li>
+<center><a><font size="3"><b>DfE Dashboard standards</b></font></a></center>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#purpose"><i class="fa fa-check"></i><b>1.1</b> Purpose</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="planning.html"><a href="planning.html"><i class="fa fa-check"></i><b>2</b> Planning</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="planning.html"><a href="planning.html#the-requirements"><i class="fa fa-check"></i><b>2.1</b> The requirements</a></li>
+<li class="chapter" data-level="2.2" data-path="planning.html"><a href="planning.html#select-the-right-type-of-dashboard"><i class="fa fa-check"></i><b>2.2</b> Select the right type of dashboard</a></li>
+<li class="chapter" data-level="2.3" data-path="planning.html"><a href="planning.html#input-data"><i class="fa fa-check"></i><b>2.3</b> Input data</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="data-processing.html"><a href="data-processing.html"><i class="fa fa-check"></i><b>3</b> Data processing</a></li>
+<li class="chapter" data-level="4" data-path="data-modelling.html"><a href="data-modelling.html"><i class="fa fa-check"></i><b>4</b> Data modelling</a></li>
+<li class="chapter" data-level="5" data-path="visualisations.html"><a href="visualisations.html"><i class="fa fa-check"></i><b>5</b> Visualisations</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="visualisations.html"><a href="visualisations.html#things-to-avoid"><i class="fa fa-check"></i><b>5.1</b> Things to avoid</a></li>
+<li class="chapter" data-level="5.2" data-path="visualisations.html"><a href="visualisations.html#simple-concise-and-easy-to-understand"><i class="fa fa-check"></i><b>5.2</b> Simple, concise and easy to understand</a></li>
+<li class="chapter" data-level="5.3" data-path="visualisations.html"><a href="visualisations.html#titles-and-labelling"><i class="fa fa-check"></i><b>5.3</b> Titles and labelling</a></li>
+<li class="chapter" data-level="5.4" data-path="visualisations.html"><a href="visualisations.html#numbers"><i class="fa fa-check"></i><b>5.4</b> Numbers</a></li>
+<li class="chapter" data-level="5.5" data-path="visualisations.html"><a href="visualisations.html#rounding"><i class="fa fa-check"></i><b>5.5</b> Rounding</a></li>
+<li class="chapter" data-level="5.6" data-path="visualisations.html"><a href="visualisations.html#ordering-categories"><i class="fa fa-check"></i><b>5.6</b> Ordering categories</a></li>
+<li class="chapter" data-level="5.7" data-path="visualisations.html"><a href="visualisations.html#filters"><i class="fa fa-check"></i><b>5.7</b> Filters</a></li>
+<li class="chapter" data-level="5.8" data-path="visualisations.html"><a href="visualisations.html#interactions"><i class="fa fa-check"></i><b>5.8</b> Interactions</a></li>
+<li class="chapter" data-level="5.9" data-path="visualisations.html"><a href="visualisations.html#colour"><i class="fa fa-check"></i><b>5.9</b> Colour</a></li>
+<li class="chapter" data-level="5.10" data-path="visualisations.html"><a href="visualisations.html#bookmarks"><i class="fa fa-check"></i><b>5.10</b> Bookmarks</a></li>
+<li class="chapter" data-level="5.11" data-path="visualisations.html"><a href="visualisations.html#tooltips"><i class="fa fa-check"></i><b>5.11</b> Tooltips</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">DfE Dashboard Standards for Power BI reports and dashboards</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="data-modelling" class="section level1" number="4">
+<h1><span class="header-section-number">Chapter 4</span> Data modelling</h1>
+<p>Data Modelling is shaping the data to meet your needs, to enable you to create visual reports that you can share with others.</p>
+<p><em>Shaping</em> data means transforming the data – such as renaming columns or tables, changing text to numbers, removing rows, setting the first row as headers etc.</p>
+<p><em>Combining</em> data means connecting to two or more data sources, shaping them as needed, then consolidating them into one useful query.</p>
+<p>Optimize the data-model by doing the following:</p>
+<ul>
+<li><p>Shape and combine data</p></li>
+<li><p>Group rows</p></li>
+<li><p>Pivot columns</p></li>
+<li><p>Use date tables where necessary</p></li>
+<li><p>Create custom columns (e.g. calculated columns, measures &amp; tables)</p></li>
+<li><p>If it’s possible in the model, consider creating a measure only table</p></li>
+<li><p>Set data types correctly</p></li>
+<li><p>Use of query formulas</p></li>
+<li><p>Use user-friendly formatting to the data</p></li>
+<li><p>Use user-friendly naming conventions for fields, measures and tables</p></li>
+<li><p>Validate relationships between tables are created correctly</p></li>
+<li><p>Use the right visualization that communicates the story of the data as clearly as possible.</p></li>
+<li><p>Remember the user and their experience with your solution!</p></li>
+</ul>
+<p>Extensive data modelling should not be performed in Power BI, as this will be slow and not provide a good user experience. If the data requires substantial manipulation, best practice would be to do the data modelling in a format such as SQL or Tabular first. The data model can then be imported to Power BI to build the dashboard. The balance between how much to do in Power BI vs other formats will vary from project to project, and the modeler must use their judgement to decide what is appropriate.</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="data-processing.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="visualisations.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

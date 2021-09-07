@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>DfE Dashboard Standards for Power BI reports and dashboards</title>
+  <title>Chapter 5 Governance | DfE Dashboard Standards for Power BI reports and dashboards</title>
   <meta name="description" content="DfE Dashboard Standards guide" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="DfE Dashboard Standards for Power BI reports and dashboards" />
+  <meta property="og:title" content="Chapter 5 Governance | DfE Dashboard Standards for Power BI reports and dashboards" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="DfE Dashboard Standards for Power BI reports and dashboards" />
+  <meta name="twitter:title" content="Chapter 5 Governance | DfE Dashboard Standards for Power BI reports and dashboards" />
   
   <meta name="twitter:description" content="DfE Dashboard Standards guide" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="pictures/qa_logo.png" type="image/x-icon" />
-
-<link rel="next" href="planning.html"/>
+<link rel="prev" href="data-modelling.html"/>
+<link rel="next" href="visualisations.html"/>
 <script src="libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -144,25 +144,21 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">DfE Dashboard Standards for Power BI reports and dashboards</h1>
-<p class="author"><em>Department for Education guidance</em></p>
-<p class="date"><em>2021-09-07</em></p>
-</div>
-<div id="introduction" class="section level1" number="1">
-<h1><span class="header-section-number">Chapter 1</span> Introduction</h1>
-<p>Power BI is Microsoft software that allows the user to create interactive dashboards/ reports/apps. It is designed to enable users to create self-service Business Intelligence (BI) tools, enabling their customers to make timely informed decisions based on their data.</p>
-<p>DfE analysts have been able to download and use Power BI since January 2018. From this date, analysts have been able to create internal tools and share them with colleagues within the department. From March 2019, analysts in ESFA Data Science Division have also been able to release dashboards to educational providers via a web portal called View Your Education Data (VYED).</p>
-<p>Below is a link to the gov.uk standards</p>
-<p><a href="https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style" class="uri">https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style</a></p>
-<div id="purpose" class="section level2" number="1.1">
-<h2><span class="header-section-number">1.1</span> Purpose</h2>
-<p>This document provides a high-level guide to aid in the design of consistent and high-quality Power BI dashboards.</p>
-<p>The overall aim of these guidelines is to help the analyst create logical, well-designed dashboards that are built correctly first time and easy for readers to understand and navigate, without any background reading.</p>
-<p>These guidelines are intended as a starting point for modellers when considering how to design dashboards, but it is for the modeller to determine how this is to be achieved. It is also hoped that this guide will start the conversation between modellers/teams to help improve standards.</p>
-<p>They are not designed to be a “colour by numbers” guide to dashboards, as each dashboard will have its own unique set of requirements and the modellers will have their own preferences and style.</p>
-<p>This document works alongside the Department’s Style Guide:</p>
-<p>DfE style guide (sharepoint.com)</p>
+<div id="governance" class="section level1" number="5">
+<h1><span class="header-section-number">Chapter 5</span> Governance</h1>
+<p>Each report should include a department/agency logo in the top left corner. All dashboards should have a version control page and information about who to contact for feedback/issues. It should also include an introduction to the dashboard and individual reports should have a short paragraph explaining the purpose of the report.</p>
+<p>Use the version control standards (to be determined) for each major change. Use a naming convention that allows files to be sorted in chronological order and always include the version number in the filename.</p>
+<ul>
+<li><p>v.0.1 for 1st draft copy, then 0.1 increments for reviewed amendments</p></li>
+<li><p>v1.0 for the signed-off copy (and 0.1 increments for minor change requests)</p></li>
+</ul>
+<div id="quality-assurance" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> Quality assurance</h2>
+<p>The <a href="https://educationgovuk.sharepoint.com/:w:/r/sites/sarpi/g/_layouts/15/Doc.aspx?sourcedoc=%7BCE688250-04F4-41A2-9951-230577A8F129%7D&amp;file=DfE%20Quality%20Assurance%20Framework.docx&amp;action=default&amp;mobileredirect=true">DfE Quality Assurance Framework</a> applies to all analysis, including dashboards. A bespoke <a href="https://educationgovuk.sharepoint.com/:x:/r/sites/sarpi/g/_layouts/15/Doc.aspx?sourcedoc=%7B3ED617E7-CFA2-45E9-816E-A175AA12AAD4%7D&amp;file=DfE-Dashboard-QA-log.xlsx&amp;action=default&amp;mobileredirect=true">Dashboard QA log</a> can be found on the <a href="https://educationgovuk.sharepoint.com/sites/sarpi/g/SitePages/Quality-Assurance.aspx">QA Sharepoint pages</a>. The QA log is based on the DfE QA framework but has been tailored such that the checks suggested, and language used, are more specific to dashboards.</p>
+<p>The log should be used for any dashboards that have required a total of 3 or more days resource to create or which have a high impact. By using the log, you can record QA activity through ratings, comments, and recommendations for further action. The QA ratings given for each area will be converted into an overall QA score for your dashboard which can be seen at the top of the page. As per the wider guidance around using a QA log, you are free to add additional activities to the log to record any other checks that have taken place.</p>
+<p>It is also important to remember that the purpose of the log is to reflect the level of risk associated with the work therefore where proportionate QA has been carried out the QA log score may be low and/or there may be several areas that show as red or amber. As long as your customers are aware of and happy to accept the level of risk, that is totally acceptable. If that is not the case, further QA activities may be required in order to strengthen the QA and reduce risk.</p>
+<p>If you have any questions about the QA framework or the dashboard QA log, or if you have any suggestions about how the dashboard QA log could be improved, please contact Model Improvement and Assurance Unit using the following email:</p>
+<p><a href="mailto:modellingandqa@educationgovuk.onmicrosoft.com" class="email">modellingandqa@educationgovuk.onmicrosoft.com</a></p>
 
 </div>
 </div>
@@ -171,8 +167,8 @@
           </div>
         </div>
       </div>
-
-<a href="planning.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="data-modelling.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="visualisations.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

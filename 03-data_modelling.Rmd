@@ -1,10 +1,17 @@
-# Data modelling
+## Data modelling
 
 Data Modelling is shaping the data to meet your needs, to enable you to create visual reports that you can share with others.  
 
-*Shaping* data means transforming the data – such as renaming columns or tables, changing text to numbers, removing rows, setting the first row as headers etc.  
+:::: {.infoboxblue .info}
 
-*Combining* data means connecting to two or more data sources, shaping them as needed, then consolidating them into one useful query. 
+**Shaping** data means transforming the data – such as renaming columns or tables, changing text to numbers, removing rows, setting the first row as headers etc.  
+::::
+
+:::: {.infoboxblue .info}
+
+**Combining** data means connecting to two or more data sources, shaping them as needed, then consolidating them into one useful query. 
+
+::::
 
 Optimize the data-model by doing the following:  
 

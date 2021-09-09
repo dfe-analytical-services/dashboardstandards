@@ -10,15 +10,17 @@ Identify the business need.
 
 * Don’t include visuals that don’t match the business need. If you believe there is a visual that will provide substantial insight – discuss this with users/the customer to see if this provides useful insight and is relevant to their needs 
 
- 
-
 Identify the customer. 
 
 * Design a report that uses familiar terminology and complexity on a par with the customer’s level of knowledge 
 
 * Design separate report pages for different customer “types” – this may extend to creating separate reports for separate users, will all reports connected to the same dataset 
 
- 
+<center>
+
+![](pictures/identify_customer.png)
+
+</center>
 
 Choose appropriate visuals 
 
@@ -29,8 +31,6 @@ Choose appropriate visuals
 * A report can have one or more pages of visuals and is based on one dataset 
 
 * A dashboard is a single page containing the most important visuals, to give an at-a-glance view of the whole report 
-
- 
 
 Identify the data 
 
@@ -45,6 +45,12 @@ Identify the data
 * Use integers instead of strings, where possible 
 
 * Be wary of DAX functions that need to test every row in a table (e.g. RANKX is perhaps the worst culprit for this)
+
+<center>
+
+![](pictures/identify_data.png){width=75%}
+
+</center>
 
 ## Select the right type of dashboard
 
@@ -62,13 +68,31 @@ The types of dashboard are:
 
 Operational dashboards often require real-time or near real-time data. They monitor the performance of your operation and can be useful for checking performance or network traffic, usage etc.  
 
+<center>
+
+![An example of an operational dashboard, taken from *https://ubiq.co/analytics-blog*. The dashboard is updated regularly to display data from the last seven days, for example sign ups and site visitors.](pictures/operational-dashboard.png){width=75%}
+
+</center>
+
 **Strategic/executive dashboards**
 
 Strategic dashboards will typically provide the KPIs (Key Performance Indicators) that a company’s executive team track on a periodic (daily, weekly or monthly) basis, and should provide the executive team with a high-level overview of the state of the business together with the opportunities the business faces. 
 
+<center>
+
+![An example of a strategic dashboard, taken from *https://www.scoro.com*. The dashboard displays KPIs and provides an overview of performance within the business.](pictures/strategic-dashboard.png){width=75%}
+
+</center>
+
 **Analytical dashboards**
 
 This type of dashboard will offer drill-down functionality - allowing the user to explore more of the data and get different insights. Often dashboards include this functionality when it is not required.
+
+<center>
+
+![An example of an analytical dashboard, taken from *blog.oribi.io*. The dashboard allows the user to filter data and focus on areas that are important to them.](pictures/analytical_dashboard.jpg){width=75%}
+
+</center>
 
 ## Input data
 

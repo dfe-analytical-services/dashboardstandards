@@ -1,6 +1,6 @@
-## Governance and Quality Assurance
+# Governance and Quality Assurance
 
-# Governance
+## Governance
 
 Each report should include a department/agency logo in the top left corner. All dashboards should have a version control page and information about who to contact for feedback/issues. It should also include an introduction to the dashboard and individual reports should have a short paragraph explaining the purpose of the report.  
 

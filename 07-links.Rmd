@@ -14,17 +14,17 @@ The following colour palette is recommended for standard data science visualisat
 
 <center>
 
-![](pictures/bar_chart_colour_palette.png){width=50%}
+![](pictures/bar_chart_colour_palette.png){width=75%}
 
 </center>
 
-1st = #1D70B8, 2nd = #BC65BD, 3rd = #FO5CA1, 4th = #FF6F61, 5th = #FFA600
+1st = #1D70B8, 2nd = #BC65BD, 3rd = #F05CA1, 4th = #FF6F61, 5th = #FFA600
 
 ### Bar Chart (single palette)
 
 <center>
 
-![](pictures/bar_chart_single_palette.png){width=50%}
+![](pictures/bar_chart_single_palette.png){width=75%}
 
 </center>
 
@@ -34,7 +34,7 @@ The following colour palette is recommended for standard data science visualisat
 
 <center>
 
-![](pictures/bar_chart_tinted_palette.png){width=50%}
+![](pictures/bar_chart_tinted_palette.png){width=75%}
 
 </center>
 
@@ -44,27 +44,27 @@ The following colour palette is recommended for standard data science visualisat
 
 <center>
 
-![](pictures/combi_chart_colour_palette.png){width=50%}
+![](pictures/combi_chart_colour_palette.png){width=75%}
 
 </center>
 
-1st = #1D70B8, 2nd = #FOSCA1, 3rd = #FFA600
+1st = #1D70B8, 2nd = #F05CA1, 3rd = #FFA600
 
 ### Combi Chart (tinted palette)
 
 <center>
 
-![](pictures/combi_chart_tinted_palette.png){width=50%}
+![](pictures/combi_chart_tinted_palette.png){width=75%}
 
 </center>
 
-1st= #1D70B8, 2nd = #489FD6, 3rd = #FFA600, 4th = #7FCFF2
+1st= #1D70B8, 2nd = #489FD6, 3rd = #FFA600
 
 ### Line Chart (colour palette)
 
 <center>
 
-![](pictures/line_chart_colour_palette.png){width=50%}
+![](pictures/line_chart_colour_palette.png){width=75%}
 
 </center>
 
@@ -74,11 +74,11 @@ The following colour palette is recommended for standard data science visualisat
 
 <center>
 
-![](pictures/line_chart_tinted_palette.png){width=50%}
+![](pictures/line_chart_tinted_palette.png){width=75%}
 
 </center>
 
-1st= #1D70B8, 2nd = #3088C8, 3rd = #489FD6, 5th = #7FCFF2
+1st= #1D70B8, 2nd = #3088C8, 3rd = #489FD6, 4th = #62B7E4, 5th = #7FCFF2
 
 ### Additional resources: 
 

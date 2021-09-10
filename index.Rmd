@@ -33,4 +33,4 @@ They are not designed to be a “colour by numbers” guide to dashboards, as ea
 
 This document works alongside the Department’s Style Guide:  
 
-DfE style guide (sharepoint.com) 
+DfE style guide (sharepoint.com)

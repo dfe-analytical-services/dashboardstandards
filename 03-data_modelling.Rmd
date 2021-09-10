@@ -7,11 +7,35 @@ Data Modelling is shaping the data to meet your needs, to enable you to create v
 **Shaping** data means transforming the data – such as renaming columns or tables, changing text to numbers, removing rows, setting the first row as headers etc.  
 ::::
 
+PowerBI allows you to transform data via the query editor. This can be transformations such as changing the type of data (PowerBI is usually good at recognising numbers, dates, percentages etc. but sometimes the data type may need to be updated), renaming columns and removing blank rows.
+
+<center>
+
+![Data can be shaped via the query editor.Steps can be renamed to make it clearer what has been transformed.](pictures/shaping_data.png){width=75%}
+
+</center>
+
 :::: {.infoboxblue .info}
 
 **Combining** data means connecting to two or more data sources, shaping them as needed, then consolidating them into one useful query. 
 
 ::::
+
+Tables can be merged where there is overlapping data. For example, if there are two tables containing information about the same children, these can be merged into one table.
+
+<center>
+
+![Merging two tables into one table.](pictures/merging.png){width=40%}
+
+</center>
+
+If there is an additional table containing information about the parent of the child, then these two tables can be linked. This will allow for different filtering options, and allow for more interactivity between the two tables.
+
+<center>
+
+![Linking between two tables.](pictures/linking.png){width=75%}
+
+</center>
 
 Optimize the data-model by doing the following:  
 

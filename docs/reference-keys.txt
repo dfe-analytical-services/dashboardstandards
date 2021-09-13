@@ -24,8 +24,6 @@ bookmarks
 tooltips
 custom-visuals
 types-of-custom-visuals
-links
-what-is-power-bi-desktop
 government-colour-standards
 bar-chart-colour-palette
 bar-chart-single-palette
@@ -35,5 +33,7 @@ combi-chart-tinted-palette
 line-chart-colour-palette
 line-chart-tinted-palette
 additional-resources
+links
+what-is-power-bi-desktop
 custom-visuals-and-the-appsource-marketplace
 useful-links

@@ -20,3 +20,8 @@ Power BI admins can deploy custom visuals into their organization for report aut
 
 Members of the community, as well as Microsoft, have contributed their custom visuals to the benefit of the public and published them to AppSource marketplace (see the links section)
 
+<center>
+
+![Custom visuals can help to enhance functionality and presentation.](pictures/custom.png)
+
+</center>

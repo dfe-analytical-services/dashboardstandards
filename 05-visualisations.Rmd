@@ -24,7 +24,7 @@ Any component or visualization that is not directly contributing to the message 
 
 Modellers should not use visuals that require explanations for the user.  
 
-* Visuals should adhere to the following guidelines: 
+Visuals should adhere to the following guidelines: 
 
 * Position elements that require the reader to make a choice to the left of the visualizations the choice will impact (e.g. slicers) 
 
@@ -37,6 +37,12 @@ Modellers should not use visuals that require explanations for the user.
 * Fill the report page. If you find that you have a lot of extra white space, consider make your visualizations larger or make the canvas smaller, although remember that white space can be useful for preventing your dashboard from looking cluttered/complicated. 
 
 * Align the elements on the report page, either symmetrically or intentionally asymmetrically – pixel alignment in the format pane is useful for doing this
+
+<center>
+
+![Some visuals are better than others when it comes to make data (and trends) clear!](pictures/simple.png)
+
+</center>
 
 ## Titles and labelling
 
@@ -92,6 +98,10 @@ Ordering the categories in a table is a very effective way of aiding rapid inter
 
 Filters should be located in a set area of the report page, consistently across all pages. These should be drop down filters as they save vital space and will look consistent.
 
+<center>
+
+![Drop down filters sit at the top of the report page, allowing for easy filtering of the visuals below.](pictures/filters.png)
+
 ## Interactions
 
 At the time of writing, the default interactions for any page report is one of two variations, all depending on the type of visualisation involved. Some of the visuals default to a filter functionality whereas other visuals use the highlight method.  
@@ -108,9 +118,21 @@ Use colour sparingly and with restraint:
 
 * Colours are most effective when they are not overused - only use different colours when they represent helpful differences of meaning in the data 
 
+<center>
+
+![The order of the colours in the legend follow the order of the colours in the visual.](pictures/colours.png)
+
+</center>
+
 Be consistent in your use of colour: 
 
 * Use the same colour to mean the same thing in a series of graphs 
+
+<center>
+
+![Colours are consistent across multiple charts.](pictures/colours_2.png)
+
+</center>
 
 Use colour logically in sequences: 
 
@@ -118,7 +140,7 @@ Use colour logically in sequences:
 
 Consider accessibility: 
 
-* Colour blindness affects the ability to distinguish between some groups of colours (especially reds and greens). Using DfE accepted colours will enhance their experience 
+* Colour blindness affects the ability to distinguish between some groups of colours (especially reds and greens). Using [DfE accepted colours][Government colour standards] will enhance their experience.
 
 Foreground colour: 
 
@@ -172,10 +194,20 @@ You can also create a collection of bookmarks, arrange them in the order you wan
 
 Bookmarks can be used to create pop-up windows, clearing filters, tabbed navigation, expand/collapse menus, page navigation and so much more.
 
+<center>
+
+![Bookmarks can be used to save a certain state of visuals.](pictures/bookmarks.png){width=60%}
+
 ## Tooltips
 
 Tooltips are an elegant way of providing more contextual information and detail to data points on a visual. When a visualization is created, the default tooltip displays the data point's value and category. Custom tooltips enable you to specify additional data points that display as part of the tooltip, simply by dragging a field into the tooltips bucket. You can also create report pages to serve as your tooltip and so include visuals, images, and any other collection of items in those pages.
 
 Each tooltip page can be associated with one or more fields in your report. Thus, when you hover over a visual that includes the selected field, the tooltip you created on your tooltip page appears when you hover over the visual, filtered by the data point over which your mouse is hovering. 
 
-There are limitations to report tooltips. These are not noted here, as Power BI is continually evolving its capabilities. 
+There are limitations to report tooltips. These are not noted here, as Power BI is continually evolving its capabilities.
+
+<center>
+
+![Tooltips can provide more context for visuals.](pictures/tooltips.png){width=75%}
+
+</center>

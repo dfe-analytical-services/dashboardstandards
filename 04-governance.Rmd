@@ -20,4 +20,10 @@ It is also important to remember that the purpose of the log is to reflect the l
 
 If you have any questions about the QA framework or the dashboard QA log, or if you have any suggestions about how the dashboard QA log could be improved, please contact Model Improvement and Assurance Unit using the following email: 
 
-modellingandqa@educationgovuk.onmicrosoft.com 
+modellingandqa@educationgovuk.onmicrosoft.com
+
+<center>
+
+![The DfE Dashboard QA Log](pictures/qa-log.png)
+
+</center>

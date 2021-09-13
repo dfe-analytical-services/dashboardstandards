@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 2 Planning | DfE Dashboard Standards for Power BI reports and dashboards</title>
+  <title>Chapter 7 Government colour standards | DfE Dashboard Standards for Power BI reports and dashboards</title>
   <meta name="description" content="DfE Dashboard Standards guide" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 2 Planning | DfE Dashboard Standards for Power BI reports and dashboards" />
+  <meta property="og:title" content="Chapter 7 Government colour standards | DfE Dashboard Standards for Power BI reports and dashboards" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 2 Planning | DfE Dashboard Standards for Power BI reports and dashboards" />
+  <meta name="twitter:title" content="Chapter 7 Government colour standards | DfE Dashboard Standards for Power BI reports and dashboards" />
   
   <meta name="twitter:description" content="DfE Dashboard Standards guide" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="pictures/qa_logo.png" type="image/x-icon" />
-<link rel="prev" href="index.html"/>
-<link rel="next" href="data-processing-and-modelling.html"/>
+<link rel="prev" href="custom-visuals.html"/>
+<link rel="next" href="links.html"/>
 <script src="libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -149,102 +149,62 @@
 <div class="hero-image-container"> 
   <img class= "hero-image" src="pictures/hero_img.png">
 </div>
-<div id="planning" class="section level1" number="2">
-<h1><span class="header-section-number">Chapter 2</span> Planning</h1>
-<div id="the-requirements" class="section level2" number="2.1">
-<h2><span class="header-section-number">2.1</span> The requirements</h2>
-<p>Identify the business need.</p>
-<ul>
-<li><p>Every report tells a story</p></li>
-<li><p>Make sure that story matches the business need</p></li>
-<li><p>Don’t include visuals that don’t match the business need. If you believe there is a visual that will provide substantial insight – discuss this with users/the customer to see if this provides useful insight and is relevant to their needs</p></li>
-</ul>
-<p>Identify the customer.</p>
-<ul>
-<li><p>Design a report that uses familiar terminology and complexity on a par with the customer’s level of knowledge</p></li>
-<li><p>Design separate report pages for different customer “types” – this may extend to creating separate reports for separate users, will all reports connected to the same dataset</p></li>
-</ul>
+<div id="government-colour-standards" class="section level1" number="7">
+<h1><span class="header-section-number">Chapter 7</span> Government colour standards</h1>
+<p>The following colour palette is recommended for standard data science visualisations and has been incorporated into the powerBI standard temple json.</p>
+<div id="bar-chart-colour-palette" class="section level2" number="7.1">
+<h2><span class="header-section-number">7.1</span> Bar Chart (colour palette)</h2>
 <center>
-<p><img src="pictures/identify_customer.png" /></p>
+<p><img src="pictures/bar_chart_colour_palette.png" style="width:75.0%" /></p>
 </center>
-<p>Choose appropriate visuals</p>
-<ul>
-<li><p>Visualisations give insight into the data in the most effective way possible</p></li>
-<li><p>Visuals such as charts and graphs make it easier to interpret the data</p></li>
-<li><p>A report can have one or more pages of visuals and is based on one dataset</p></li>
-<li><p>A dashboard is a single page containing the most important visuals, to give an at-a-glance view of the whole report</p></li>
-</ul>
-<p>Identify the data</p>
-<ul>
-<li><p>Filter the amount shown in the visual with minimal impact to the end user</p></li>
-<li><p>Remove tables or columns that are unused</p></li>
-<li><p>Avoid distinct counts on fields with high cardinality (i.e., millions of values)</p></li>
-<li><p>Avoid unnecessary precision - split date-time values into separate columns</p></li>
-<li><p>Use integers instead of strings, where possible</p></li>
-<li><p>Be wary of DAX functions that need to test every row in a table (e.g. RANKX is perhaps the worst culprit for this)</p></li>
-</ul>
+<p>1st = #1D70B8, 2nd = #BC65BD, 3rd = #F05CA1, 4th = #FF6F61, 5th = #FFA600</p>
+</div>
+<div id="bar-chart-single-palette" class="section level2" number="7.2">
+<h2><span class="header-section-number">7.2</span> Bar Chart (single palette)</h2>
 <center>
-<p><img src="pictures/identify_data.png" style="width:75.0%" /></p>
+<p><img src="pictures/bar_chart_single_palette.png" style="width:75.0%" /></p>
 </center>
+<p>1st = #1D70B8</p>
 </div>
-<div id="select-the-right-type-of-dashboard" class="section level2" number="2.2">
-<h2><span class="header-section-number">2.2</span> Select the right type of dashboard</h2>
-<p>There are three common types of dashboard, each performing a specific purpose.</p>
-<p>The types of dashboard are:</p>
-<ol style="list-style-type: decimal">
-<li><p>operational dashboards</p></li>
-<li><p>strategic/executive dashboards</p></li>
-<li><p>analytical dashboards</p></li>
-</ol>
-<p><strong>Operational dashboards </strong></p>
-<p>Operational dashboards often require real-time or near real-time data. They monitor the performance of your operation and can be useful for checking performance or network traffic, usage etc.</p>
+<div id="bar-chart-tinted-palette" class="section level2" number="7.3">
+<h2><span class="header-section-number">7.3</span> Bar Chart (tinted palette)</h2>
 <center>
-<div class="figure">
-<img src="pictures/operational-dashboard.png" style="width:75.0%" alt="" />
-<p class="caption">An example of an operational dashboard, taken from <em><a href="https://ubiq.co/analytics-blog" class="uri">https://ubiq.co/analytics-blog</a></em>. The dashboard is updated regularly to display data from the last seven days, for example sign ups and site visitors.</p>
-</div>
+<p><img src="pictures/bar_chart_tinted_palette.png" style="width:75.0%" /></p>
 </center>
-<p><strong>Strategic/executive dashboards</strong></p>
-<p>Strategic dashboards will typically provide the KPIs (Key Performance Indicators) that a company’s executive team track on a periodic (daily, weekly or monthly) basis, and should provide the executive team with a high-level overview of the state of the business together with the opportunities the business faces.</p>
+<p>1st = #1D70B8, 2nd = #3088C8, 3rd = #489FD6, 4th = #62B7E4, 5th = #7FCFF2</p>
+</div>
+<div id="combi-chart-colour-palette" class="section level2" number="7.4">
+<h2><span class="header-section-number">7.4</span> Combi Chart (colour palette)</h2>
 <center>
-<div class="figure">
-<img src="pictures/strategic-dashboard.png" style="width:75.0%" alt="" />
-<p class="caption">An example of a strategic dashboard, taken from <em><a href="https://www.scoro.com" class="uri">https://www.scoro.com</a></em>. The dashboard displays KPIs and provides an overview of performance within the business.</p>
-</div>
+<p><img src="pictures/combi_chart_colour_palette.png" style="width:75.0%" /></p>
 </center>
-<p><strong>Analytical dashboards</strong></p>
-<p>This type of dashboard will offer drill-down functionality - allowing the user to explore more of the data and get different insights. Often dashboards include this functionality when it is not required.</p>
+<p>1st = #1D70B8, 2nd = #F05CA1, 3rd = #FFA600</p>
+</div>
+<div id="combi-chart-tinted-palette" class="section level2" number="7.5">
+<h2><span class="header-section-number">7.5</span> Combi Chart (tinted palette)</h2>
 <center>
-<div class="figure">
-<img src="pictures/analytical_dashboard.jpg" style="width:75.0%" alt="" />
-<p class="caption">An example of an analytical dashboard, taken from <em>blog.oribi.io</em>. The dashboard allows the user to filter data and focus on areas that are important to them.</p>
-</div>
+<p><img src="pictures/combi_chart_tinted_palette.png" style="width:75.0%" /></p>
 </center>
+<p>1st= #1D70B8, 2nd = #489FD6, 3rd = #FFA600</p>
 </div>
-<div id="input-data" class="section level2" number="2.3">
-<h2><span class="header-section-number">2.3</span> Input data</h2>
-<p>Rather than importing the entire data set in Power BI, we should identify the typical information that our viewer wants to see and based on that, we can create database queries to retrieve only that part of data.</p>
-<p>Input data in the report should be exactly as supplied by the supplier.</p>
-<p>Modellers should not be making manual adjustments to supplied data and any amendments should be done by auditable formulas within the model, not prior to the data going into the model.</p>
-<p>Gauge an understanding of the data, as this will affect how you want to visualise it:</p>
-<ul>
-<li><p>how was it collected - manual or automatic</p></li>
-<li><p>data quality - is it accurate, concise and complete</p></li>
-<li><p>type of data - funding, performance reviews etc</p></li>
-<li><p>level of data - simplified overview or specific detail</p></li>
-<li><p>amount of data - is it all required</p></li>
-<li><p>hierarchy - ability to drill down or not</p></li>
-</ul>
-<p>Liaise carefully with those supplying the input to ensure a full appreciation of scope, definitions and quality, etc.</p>
-<p>As a minimum, record:</p>
-<ul>
-<li><p>who supplied it and when</p></li>
-<li><p>a link (if available, e.g. if it is published data)</p></li>
-<li><p>its level of quality assurance</p></li>
-<li><p>if/when it requires updating</p></li>
-<li><p>If Official Statistics are being used/created liaise with the statistics team to ensure they are used correctly</p></li>
-</ul>
-<p>Ensure that the dashboard data is refreshed at appropriate intervals. This will save time during development and should ensure optimal performance once the dashboard is live. It is also worth considering whether importing your data or Direct Query is more appropriate. It may be that you import the data while you are developing the dashboard, and then work with a data modeller to add the extra data manipulation that you require to the underlying data cube once the dashboard design is finalised. This will then allow you to switch to Direct Query once the dashboard is running as a Business As Usual process.</p>
+<div id="line-chart-colour-palette" class="section level2" number="7.6">
+<h2><span class="header-section-number">7.6</span> Line Chart (colour palette)</h2>
+<center>
+<p><img src="pictures/line_chart_colour_palette.png" style="width:75.0%" /></p>
+</center>
+<p>1st = #1D70B8, 2nd = #BC65BD, 3rd = #F05CA1, 4th = #FF6F61, 5th = #FFA600</p>
+</div>
+<div id="line-chart-tinted-palette" class="section level2" number="7.7">
+<h2><span class="header-section-number">7.7</span> Line Chart (tinted palette)</h2>
+<center>
+<p><img src="pictures/line_chart_tinted_palette.png" style="width:75.0%" /></p>
+</center>
+<p>1st= #1D70B8, 2nd = #3088C8, 3rd = #489FD6, 4th = #62B7E4, 5th = #7FCFF2</p>
+</div>
+<div id="additional-resources" class="section level2" number="7.8">
+<h2><span class="header-section-number">7.8</span> Additional resources:</h2>
+<p><a href="https://style.ons.gov.uk/category/data-visualisation/" class="uri">https://style.ons.gov.uk/category/data-visualisation/</a></p>
+<p><a href="https://design-system.service.gov.uk/styles/colour/" class="uri">https://design-system.service.gov.uk/styles/colour/</a></p>
 
 </div>
 </div>
@@ -253,8 +213,8 @@
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="data-processing-and-modelling.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="custom-visuals.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="links.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

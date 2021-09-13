@@ -1,0 +1,25 @@
+# Links
+
+## What is Power BI desktop?
+
+This is the link to everything you need to know about Power BI (and where you can download the Microsoft tutorial pdf) 
+
+https://docs.microsoft.com/en-us/power-bi/desktop-what-is-desktop
+
+## Custom visuals and the AppSource marketplace
+
+https://powerbi.microsoft.com/en-us/developers/custom-visualization/
+
+https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals
+
+## Useful links
+
+Chart types: https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a
+
+Layouts: https://powerbi.tips/2018/01/introducing-layouts/
+
+Themes: https://docs.microsoft.com/en-us/power-bi/desktop-report-themes
+
+Gallery: https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery
+
+DAX: https://msdn.microsoft.com/library/gg413422.aspx

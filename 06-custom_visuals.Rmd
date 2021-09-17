@@ -22,6 +22,6 @@ Members of the community, as well as Microsoft, have contributed their custom vi
 
 <center>
 
-![Custom visuals can help to enhance functionality and presentation.](pictures/custom.png)
+![Custom visuals can help to enhance functionality and presentation. Graphic taken from https://radacad.com/](pictures/custom.png "Graphic showing different custom visuals available within PowerBI.")
 
 </center>

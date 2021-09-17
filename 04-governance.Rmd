@@ -24,6 +24,6 @@ modellingandqa@educationgovuk.onmicrosoft.com
 
 <center>
 
-![The DfE Dashboard QA Log](pictures/qa-log.png)
+![The DfE Dashboard QA Log](pictures/qa-log.png "A screenshot of the Dashboard QA Log")
 
 </center>

@@ -18,7 +18,7 @@ Identify the customer.
 
 <center>
 
-![](pictures/identify_customer.png)
+![](pictures/identify_customer.png, "Decorative image taken from https://au-blog.reachlocal.com/")
 
 </center>
 
@@ -48,7 +48,7 @@ Identify the data
 
 <center>
 
-![](pictures/identify_data.png){width=75%}
+![](pictures/identify_data.png "Decorative image taken from https://datafloq.com/"){width=75%}
 
 </center>
 
@@ -70,7 +70,7 @@ Operational dashboards often require real-time or near real-time data. They moni
 
 <center>
 
-![An example of an operational dashboard, taken from *https://ubiq.co/analytics-blog*. The dashboard is updated regularly to display data from the last seven days, for example sign ups and site visitors.](pictures/operational-dashboard.png){width=75%}
+![An example of an operational dashboard, taken from *https://ubiq.co/analytics-blog*. The dashboard is updated regularly to display data from the last seven days, for example sign ups and site visitors.](pictures/operational-dashboard.png "An example of an operational dashboard"){width=75%}
 
 </center>
 
@@ -80,7 +80,7 @@ Strategic dashboards will typically provide the KPIs (Key Performance Indicators
 
 <center>
 
-![An example of a strategic dashboard, taken from *https://www.scoro.com*. The dashboard displays KPIs and provides an overview of performance within the business.](pictures/strategic-dashboard.png){width=75%}
+![An example of a strategic dashboard, taken from *https://www.scoro.com*. The dashboard displays KPIs and provides an overview of performance within the business.](pictures/strategic-dashboard.png "An example of a strategic dashboard"){width=75%}
 
 </center>
 
@@ -90,7 +90,7 @@ This type of dashboard will offer drill-down functionality - allowing the user t
 
 <center>
 
-![An example of an analytical dashboard, taken from *blog.oribi.io*. The dashboard allows the user to filter data and focus on areas that are important to them.](pictures/analytical_dashboard.jpg){width=75%}
+![An example of an analytical dashboard, taken from *blog.oribi.io*. The dashboard allows the user to filter data and focus on areas that are important to them.](pictures/analytical_dashboard.jpg "An example of an analytical dashboard"){width=75%}
 
 </center>
 

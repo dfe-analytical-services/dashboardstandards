@@ -6,7 +6,7 @@ The following colour palette is recommended for standard data science visualisat
 
 <center>
 
-![](pictures/bar_chart_colour_palette.png){width=75%}
+![](pictures/bar_chart_colour_palette.png "The bar chart colour palette."){width=75%}
 
 </center>
 
@@ -16,7 +16,7 @@ The following colour palette is recommended for standard data science visualisat
 
 <center>
 
-![](pictures/bar_chart_single_palette.png){width=75%}
+![](pictures/bar_chart_single_palette.png "The bar chart single palette."){width=75%}
 
 </center>
 
@@ -26,7 +26,7 @@ The following colour palette is recommended for standard data science visualisat
 
 <center>
 
-![](pictures/bar_chart_tinted_palette.png){width=75%}
+![](pictures/bar_chart_tinted_palette.png "The bar chart tinted palette."){width=75%}
 
 </center>
 
@@ -36,7 +36,7 @@ The following colour palette is recommended for standard data science visualisat
 
 <center>
 
-![](pictures/combi_chart_colour_palette.png){width=75%}
+![](pictures/combi_chart_colour_palette.png "The combi chart colour palette."){width=75%}
 
 </center>
 
@@ -46,7 +46,7 @@ The following colour palette is recommended for standard data science visualisat
 
 <center>
 
-![](pictures/combi_chart_tinted_palette.png){width=75%}
+![](pictures/combi_chart_tinted_palette.png "The combi chart tinted palette."){width=75%}
 
 </center>
 
@@ -56,7 +56,7 @@ The following colour palette is recommended for standard data science visualisat
 
 <center>
 
-![](pictures/line_chart_colour_palette.png){width=75%}
+![](pictures/line_chart_colour_palette.png "The line chart colour palette."){width=75%}
 
 </center>
 
@@ -66,7 +66,7 @@ The following colour palette is recommended for standard data science visualisat
 
 <center>
 
-![](pictures/line_chart_tinted_palette.png){width=75%}
+![](pictures/line_chart_tinted_palette.png "The line chart tinted palette."){width=75%}
 
 </center>
 

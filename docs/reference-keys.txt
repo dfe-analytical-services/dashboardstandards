@@ -1,5 +1,6 @@
 introduction
 purpose
+version-control
 planning
 the-requirements
 select-the-right-type-of-dashboard

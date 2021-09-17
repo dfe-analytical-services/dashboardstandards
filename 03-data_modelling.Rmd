@@ -11,7 +11,7 @@ PowerBI allows you to transform data via the query editor. This can be transform
 
 <center>
 
-![Data can be shaped via the query editor.Steps can be renamed to make it clearer what has been transformed.](pictures/shaping_data.png){width=75%}
+![Data can be shaped via the query editor. Steps can be renamed to make it clearer what has been transformed.](pictures/shaping_data.png "A screenshot showing various steps that can be taken when shaping data."){width=75%}
 
 </center>
 
@@ -25,7 +25,7 @@ Tables can be merged where there is overlapping data. For example, if there are 
 
 <center>
 
-![Merging two tables into one table.](pictures/merging.png){width=40%}
+![Merging two tables into one table.](pictures/merging.png "Two tables can be merged into one within PowerBI."){width=40%}
 
 </center>
 
@@ -33,7 +33,7 @@ If there is an additional table containing information about the parent of the c
 
 <center>
 
-![Linking between two tables.](pictures/linking.png){width=75%}
+![Linking between two tables.](pictures/linking.png "Links can be created between tables to allow users more flexibility in filtering the data."){width=75%}
 
 </center>
 

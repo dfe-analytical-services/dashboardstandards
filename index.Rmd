@@ -33,4 +33,30 @@ They are not designed to be a “colour by numbers” guide to dashboards, as ea
 
 This document works alongside the Department’s Style Guide:  
 
-DfE style guide (sharepoint.com)
+[DfE style guide](https://educationgovuk.sharepoint.com/sites/how-do-i/SitePages/communications-style-guide.aspx)
+
+## Version control
+
+* v0.1 Ricky Hindmarch, 22/10/2018. Initial draft.
+
+* v0.2 Roman Kuzio, 22/11/2018. Continued draft.
+
+* v0.3 Roman Kuzio, 28/11/2018. Reviewed comments from Ricky.
+
+* v0.4 Roman Kuzio, 11/12/2018. Reviewed comments from Jenny.
+
+* v0.5 Roman Kuzio, 12/12/2018. Incorporated further review comments from Jenny.
+
+* v0.6 Roman Kuzio, 19/12/2018. Reviewed comments from Joe Grassby.
+
+* v0.7 Jenny Cooley, 13/02/2019. Editing.
+
+* v0.8 Aynsley Heath, 06/07/2020. Reviewed comments from team and updated documentation.
+
+* v0.9 Ben Turner, 10/08/2020. Updated to include information on colour palette.
+
+* v1.0 Jonathan Needham, 06/11/2020. Included an additional section on Quality Assurance.
+
+* v1.1 Thomas Morley, 30/07/2021. Updated some links.
+
+* v2.0 Thomas Morley, 17/09/2021. Created bookdown version.

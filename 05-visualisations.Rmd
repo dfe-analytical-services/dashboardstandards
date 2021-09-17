@@ -40,7 +40,7 @@ Visuals should adhere to the following guidelines:
 
 <center>
 
-![Some visuals are better than others when it comes to make data (and trends) clear!](pictures/simple.png)
+![Some visuals are better than others when it comes to make data (and trends) clear!](pictures/simple.png "Displaying data using a pie chart versus a bar chart.")
 
 </center>
 
@@ -100,7 +100,7 @@ Filters should be located in a set area of the report page, consistently across 
 
 <center>
 
-![Drop down filters sit at the top of the report page, allowing for easy filtering of the visuals below.](pictures/filters.png)
+![Drop down filters sit at the top of the report page, allowing for easy filtering of the visuals below.](pictures/filters.png "A dashboard with drop down filters displayed at the top of the page.")
 
 ## Interactions
 
@@ -120,7 +120,7 @@ Use colour sparingly and with restraint:
 
 <center>
 
-![The order of the colours in the legend follow the order of the colours in the visual.](pictures/colours.png)
+![The order of the colours in the legend follow the order of the colours in the visual.](pictures/colours.png "A dashboard displayed a sensible ordering in the legend.")
 
 </center>
 
@@ -130,7 +130,7 @@ Be consistent in your use of colour:
 
 <center>
 
-![Colours are consistent across multiple charts.](pictures/colours_2.png)
+![Colours are consistent across multiple charts.](pictures/colours_2.png "A dashboard displayed consistent colour schemes across multiple charts.")
 
 </center>
 
@@ -196,7 +196,7 @@ Bookmarks can be used to create pop-up windows, clearing filters, tabbed navigat
 
 <center>
 
-![Bookmarks can be used to save a certain state of visuals.](pictures/bookmarks.png){width=60%}
+![Bookmarks can be used to save a certain state of visuals. Graphic taken from https://www.wallstreetmojo.com/](pictures/bookmarks.png "A graphic showing how to add bookmarks in PowerBI."){width=60%}
 
 ## Tooltips
 
@@ -208,6 +208,6 @@ There are limitations to report tooltips. These are not noted here, as Power BI 
 
 <center>
 
-![Tooltips can provide more context for visuals.](pictures/tooltips.png){width=75%}
+![Tooltips can provide more context for visuals. Example taken from Power BI Academy on Youtube](pictures/tooltips.png "An example of using tooltips within PowerBI."){width=75%}
 
 </center>

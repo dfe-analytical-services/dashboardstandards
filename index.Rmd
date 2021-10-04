@@ -35,6 +35,10 @@ This document works alongside the Department’s Style Guide:
 
 [DfE style guide](https://educationgovuk.sharepoint.com/sites/how-do-i/SitePages/communications-style-guide.aspx)
 
+To access the old version of the Dashboard Standards guidance, please click here:
+
+[Dashboard Standards guidance](https://educationgovuk.sharepoint.com/:w:/r/sites/sarpi/g/_layouts/15/Doc.aspx?sourcedoc=%7B0EF92C8D-9F1D-40A7-8F18-8B3BE22CF303%7D&file=Dashboard%20Standards.docx&action=default&mobileredirect=true)
+
 ## Version control
 
 * v0.1 Ricky Hindmarch, 22/10/2018. Initial draft.

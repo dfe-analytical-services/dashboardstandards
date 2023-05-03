@@ -18,7 +18,7 @@ Identify the customer.
 
 <center>
 
-![](pictures/identify_customer.png, "Decorative image taken from https://au-blog.reachlocal.com/")
+![](pictures/identify_customer.png "Decorative image taken from https://au-blog.reachlocal.com/")
 
 </center>
 

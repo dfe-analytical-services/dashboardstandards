@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 2 Planning | DfE Dashboard Standards for Power BI reports and dashboards</title>
   <meta name="description" content="DfE Dashboard Standards guide" />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.33 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 2 Planning | DfE Dashboard Standards for Power BI reports and dashboards" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="DfE Dashboard Standards guide" />
   
@@ -24,7 +23,7 @@
 <meta name="author" content="Department for Education guidance" />
 
 
-<meta name="date" content="2021-10-04" />
+<meta name="date" content="2023-05-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +32,8 @@
   <link rel="shortcut icon" href="pictures/qa_logo.png" type="image/x-icon" />
 <link rel="prev" href="index.html"/>
 <link rel="next" href="data-processing-and-modelling.html"/>
-<script src="libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,6 +49,9 @@
 
 
 
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 
@@ -150,10 +152,10 @@
 <div class="hero-image-container"> 
   <img class= "hero-image" src="pictures/hero_img.png">
 </div>
-<div id="planning" class="section level1" number="2">
-<h1><span class="header-section-number">Chapter 2</span> Planning</h1>
-<div id="the-requirements" class="section level2" number="2.1">
-<h2><span class="header-section-number">2.1</span> The requirements</h2>
+<div id="planning" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">Chapter 2</span> Planning<a href="planning.html#planning" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="the-requirements" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> The requirements<a href="planning.html#the-requirements" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Identify the business need.</p>
 <ul>
 <li><p>Every report tells a story</p></li>
@@ -188,8 +190,8 @@
 <p><img src="pictures/identify_data.png" title="Decorative image taken from https://datafloq.com/" style="width:75.0%" /></p>
 </center>
 </div>
-<div id="select-the-right-type-of-dashboard" class="section level2" number="2.2">
-<h2><span class="header-section-number">2.2</span> Select the right type of dashboard</h2>
+<div id="select-the-right-type-of-dashboard" class="section level2 hasAnchor" number="2.2">
+<h2><span class="header-section-number">2.2</span> Select the right type of dashboard<a href="planning.html#select-the-right-type-of-dashboard" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>There are three common types of dashboard, each performing a specific purpose.</p>
 <p>The types of dashboard are:</p>
 <ol style="list-style-type: decimal">
@@ -222,8 +224,8 @@
 </div>
 </center>
 </div>
-<div id="input-data" class="section level2" number="2.3">
-<h2><span class="header-section-number">2.3</span> Input data</h2>
+<div id="input-data" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> Input data<a href="planning.html#input-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Rather than importing the entire data set in Power BI, we should identify the typical information that our viewer wants to see and based on that, we can create database queries to retrieve only that part of data.</p>
 <p>Input data in the report should be exactly as supplied by the supplier.</p>
 <p>Modellers should not be making manual adjustments to supplied data and any amendments should be done by auditable formulas within the model, not prior to the data going into the model.</p>
@@ -259,7 +261,6 @@
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -278,6 +279,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -298,6 +300,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section"
 }
